@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "email": "2514o_o@naver.com",
+      "displayName": "윤",
+      "password": "123qwe!!!",
+      "rePassword": "123qwe!!!",
+      "id": 1
+    },
+    {
+      "email": "2514o_o@naver.com",
+      "password": "123qwe!!!",
+      "id": 2
+    },
+    {
+      "email": "ddz2@d.com",
+      "password": "d",
+      "id": 3
+    }
+  ]
+}

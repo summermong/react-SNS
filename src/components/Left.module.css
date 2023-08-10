@@ -1,0 +1,62 @@
+.leftnav {
+  position: relative;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  align-items: center;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+i {
+  padding-right: 5px;
+}
+
+a {
+  color: black !important;
+}
+
+@media screen and (min-width: 769px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 20%;
+    height: 100vh; /* 화면 높이 만큼 */
+    display: flex;
+    flex-direction: column;
+    background-color: white; /* 배경색 설정 */
+    border-right: 1px solid var(--gray-color);
+    border-bottom: 0;
+  }
+
+  h3 {
+    max-width: 100%;
+    padding-left: 10px;
+  }
+
+  li {
+    width: 100%;
+    display: flex;
+  }
+
+  a {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  i {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
